@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    background-color:lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(51, 157, 228, 0.5),rgba(51, 157, 228, 0.5)),url("modern-office.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+/* box */
+.wrapper{
+    background-color:rgba(235, 173, 173, 0.76);
+    width: 700px;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0,5);
+}
+/* heading of payment */
+.wrapper h2{
+    font-family: "Times New Roman", Times, serif;
+    background-color: #3cc479;
+    color:#0a1d3a;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px outset rgb(209, 156, 11);
+}
+/* account */
+h4,h6{
+    padding-bottom: 3px;
+    color: #13b9ab;
+}
+
+.text-box{
+    width: 100%;
+    color: rgb(12, 102, 12);
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:left;
+    font-size: 30px;
+}
+        h1
+        {
+            text-align: center;
+        }
+        input[type="text"],input[type="password"],input[type="email"]
+        {
+            width: 25%;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+        }
+        button,input[type="reset"]
+        {
+            border: none;
+            background-color: mediumturquoise;
+            width: 70px;
+            padding: 10px;
+        }
+        button:hover,input[type="reset"]:hover{
+            color: mediumpurple;
+        }

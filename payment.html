@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="payment.css">
+  <link rel="icon" href="LIGHT BLUE.jpg" type="image/icon type">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
+  <title>Payment Form</title>
+
+</head>
+
+<body>
+        <div class="wrapper">
+            <h2>PAYMENT FORM</h2>
+            <form method="POST">
+                <h4>Account Holder Name</h4><br>
+
+                    <div class="text-box">
+                       <input type="text" 
+                       placeholder="FULL NAME" required    
+                       class="NAME">
+                    </div>
+        <br>
+
+                    <div class="text-box">
+                    <h6>Email:</h6>
+                      <input type="email" placeholder="EMAIL ADDRESS" required
+                      class="NAME">
+                    </div>   
+                 
+
+                    <div class="text-box">
+                        <h6>DATE OF BIRTH</h6>
+                        <input type="text" placeholder="DD"
+                        class="DOB">   
+                        <input type="text" placeholder="MM"
+                        class="DOB">  
+                        <input type="text" placeholder="YYYY"
+                        class="DOB">                 
+                      </div>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HzmFwrUH7EoCBY" async> </script> </form>    
+        </div>
+    </body>
+    </html>
